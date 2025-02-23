@@ -1,0 +1,30 @@
+{
+  "name": "dry-dawn-0846",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ancient-darkness-cb43-d1",
+      "database_id": "eff89550-a6e1-4200-8cad-856c5784161a"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "dry-dawn-0846-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
